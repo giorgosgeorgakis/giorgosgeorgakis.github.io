@@ -16,15 +16,18 @@
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
 
 </head>
-
 <body data-spy="scroll" data-offset="64" data-target="#section-topbar">
 <section id="top" name="top">
   <div id="section-topbar">
@@ -35,11 +38,12 @@
             <ul id="nav" class="nav">
               <li class="menu-item"><a class="smothscroll" href="#about" title="About Me"><i class="fa fa-user"></i></a></li>
               <li class="menu-item"><a class="smothscroll" href="#resume" title="Resume"><i class="fa fa-file-text-o"></i></a></li>
-			  <li class="menu-item"><a class="smothscroll" href="#experience" title="experience"><i class="fa fa-th-large"></i></a></li>
-			  <li class="menu-item"><a class="smothscroll" href="#specialities" title="specialities"><i class="fa fa-th"></i></a></li>
-			  <li class="menu-item"><a class="smothscroll" href="#skills" title="skills"><i class="fa fa-cog"></i></a></li>
+	      <li class="menu-item"><a class="smothscroll" href="#experience" title="experience"><i class="fa fa-th-large"></i></a></li>
+	      <li class="menu-item"><a class="smothscroll" href="#specialities" title="specialities"><i class="fa fa-th"></i></a></li>
+	      <li class="menu-item"><a class="smothscroll" href="#skills" title="skills"><i class="fa fa-cog"></i></a></li>
               <li class="menu-item"><a class="smothscroll" href="#work" title="Accomplishments & Contributions"><i class="fa fa-briefcase"></i></a></li>
-              <li class="menu-item"><a class="smothscroll" href="#contact" title="Contact"><i class="fa fa-envelope"></i></a></li>
+		<li class="menu-item"><a class="smothscroll" href="#portfolio" title="Certifications"><i class="fa fa-certificate"></i></a></li>
+	      <li class="menu-item"><a class="smothscroll" href="#contact" title="Contact"><i class="fa fa-envelope"></i></a></li>
             </ul>
             <!--/ uL#nav -->
           </div>
@@ -481,6 +485,91 @@ Created tunnels with customers for secure access to their data hosted in company
 	
   </section>
  
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+<div id="portfolio">
+</div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All</a></li>
+            <li><a href="#" data-filter=".vmware">VMware</a></li>
+            <li><a href="#" data-filter=".cisco">Cisco</a></li>
+            <li><a href="#" data-filter=".microsoft">Microsoft</a></li>
+            <li><a href="#" data-filter=".other">Other</a></li>
+			<li><a href="#" data-filter=".certification">Certifications</a></li>
+			<li><a href="#" data-filter=".completedtraining">Completed Training</a></li>
+			<li><a href="#" data-filter=".currenttraining">Current Training</a></li>
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+		 <div class="col-sm-6 col-md-3 col-lg-3 vmware completedtraining">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/horizon_cert.png" title="VMware" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>VMware</h4>
+                <small>VMware Horizon 7</small> 
+				</div>
+              <img src="img/vmware_Cert_VCA.png" class="img-responsive" alt="VCP"> </a> 
+			  </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 cisco certification">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/ccna_cert.jpg" title="CISCO" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>CISCO</h4>
+                <small>CCNA</small> </div>
+              <img src="img/ccna.png" class="img-responsive" alt="CCNA"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 vmware currenttraining">
+          <div class="portfolio-item">
+           <div class="hover-bg"> <a href="img/currently-in-training.png" title="VMware" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>VMware</h4>
+                <small>VMware Certified Associate</small> </div>
+              <img src="img/vmware_Cert_Asso_DBT.png" class="img-responsive" alt="VCA"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 microsoft currenttraining">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/currently-in-training.png" title="Microsoft" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Microsoft</h4>
+                <small>MCSA</small> </div>
+              <img src="img/mcsa.png" class="img-responsive" alt="MCSA"> </a> </div>
+          </div>
+        </div>
+		<div class="col-sm-6 col-md-3 col-lg-3 other currenttraining">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/currently-in-training.png" title="CCSP" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>CCSP</h4>
+                <small>Certified Cloud Security Professional</small> </div>
+              <img src="img/ccsp.png" class="img-responsive" alt="CCSP"> </a> </div>
+          </div>
+        </div>
+		<div class="col-sm-6 col-md-3 col-lg-3 other completedtraining">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/onbase_train.png" title="OnBase" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>OnBase</h4>
+                <small>Introduction to Installation</small> </div>
+              <img src="img/onbase.png" class="img-responsive" alt="OnBase"> </a> </div>
+          </div>
+        </div>
+</div>
+    </div>
+  </div>
+</div>
+
  <section id="contact" name="contact">
     <!--FOOTER DESCRIPTION -->
     <div id="footwrap">
@@ -526,6 +615,29 @@ Created tunnels with customers for secure access to their data hosted in company
   <script src="lib/easing/easing.min.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/main1.js"></script>
+<body oncontextmenu="return false">
+
+<script>
+/*function check(e)
+{
+alert(e.keyCode);
+}*/
+ document.onkeydown = function(e) {
+    if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 ||     e.keyCode === 117 || e.keycode === 17 || e.keycode === 85)) {//ctrl+u Alt+c, Alt+v will also be disabled sadly.
+        alert('Not Allowed');
+    }
+    return false;
+};
+</script>
 </body>
 </html>
