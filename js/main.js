@@ -9,7 +9,7 @@ jQuery(document).ready(function( $ ) {
 
         $('html, body').animate({
           scrollTop: target.offset().top - 62
-        }, 1000, 'easeInOutExpo');
+        }, 1500, 'easeInOutExpo');
       }
     }
   });
